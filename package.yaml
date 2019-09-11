@@ -21,6 +21,18 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- aeson
+- lens
+- lens-aeson
+- text
+- http-client
+- http-types
+- http-client-tls
+- vector
+- bytestring
+- google-oauth2-jwt
+- transformers
+- time
 
 library:
   source-dirs: src
