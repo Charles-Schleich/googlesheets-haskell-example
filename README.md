@@ -11,11 +11,11 @@ There are many ways to write this program in Haskell, this is just one to get yo
 
 ##  Google Sheets Setup
 1. Make a project on the google Developer Console. https://console.developers.google.com/
-  1. Give this project google Sheets API access
+  1.1. Give this project google Sheets API access
 
 2. Add a Service Account for your project on the google Developer Console.
-  2. Your Service Account needs the role of Project Editor (Edit Access To All Resources).
-  2. Download your Service Account Key File, JSON format. Do not lose this file. 
+  2.1. Your Service Account needs the role of Project Editor (Edit Access To All Resources).
+  2.2. Download your Service Account Key File, JSON format. Do not lose this file. 
 
 Should look something like this 
 ```
@@ -34,7 +34,7 @@ Should look something like this
 ```
 
 3. Put the key.json in the /config/ folder of the project
-4.  Create a Google sheet (using the same Google Account that you created the Google Developer Project) and get the SheetID from it.
+4. Create a Google sheet (using the same Google Account that you created the Google Developer Project) and get the SheetID from it.
     https://docs.google.com/spreadsheets/d/<44-character-sheet-id>/
 
 5. Add your Service Account (service worker) to your sheet 
